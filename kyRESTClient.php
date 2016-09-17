@@ -129,7 +129,7 @@ class kyRESTClient implements kyRESTClientInterface {
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_SSL_VERIFYPEER => false,
 			CURLOPT_SSL_VERIFYHOST => false,
-			CURLOPT_CONNECTTIMEOUT => 2,
+			CURLOPT_CONNECTTIMEOUT => 10,
 			CURLOPT_FORBID_REUSE => true,
 			CURLOPT_FRESH_CONNECT => true,
 			CURLOPT_URL => $url
